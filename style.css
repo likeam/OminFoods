@@ -174,14 +174,60 @@ h3{
     width: 25%;
 
 }
-.meal-photo{
+.meals-photo {
     width: 100%;
     margin: 0;
+    overflow: hidden;
+    background-color:#000 ;
 }
-.meal-photo img{
+.meals-photo img {
+    opacity: 0.7;
     width: 100%;
     height:auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
 }
-.section-meals{
+.section-meals {
      
+    padding: 0;
+}
+.meals-photo img:hover {
+    transform: scale(1.03);
+}
+
+
+.step-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+
+}
+.step-box:last-child{
+    padding-left: 3%;
+    margin-top: 70px;
+}
+.app-screen{
+    width: 40%;
+}
+.works-step{
+    margin-bottom: 50px;
+}
+.works-step div{
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size:150%;
+    margin-left: 25px; 
+
+}
+.btn-app img{
+    height: 50px;
+    margin-right:10px;
+    width: auto;
 }
